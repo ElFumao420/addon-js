@@ -9,11 +9,10 @@ COPY run.sh /run.sh
 RUN chmod a+x /run.sh
 
 # Copia todos los archivos de tu carpeta scripts al contenedor
-COPY scripts/ /data/scripts/
-RUN ls -R /data/scripts
+COPY scripts/Telegram_Bot/index.js /data/scripts/Telegram_Bot/index.js
 
 # Establece /data como directorio de trabajo
-WORKDIR /data/scripts
+WORKDIR /data/scripts/Telegram_Bot
 
 # Comando de inicio
 CMD [ "/run.sh" ]
