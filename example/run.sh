@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-ls data
+ls home
 cd /Telegram_Bot
 node index.js
