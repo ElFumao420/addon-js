@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-ls /data
+ls /data/scripts
 node index.js
