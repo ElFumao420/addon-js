@@ -1,6 +1,6 @@
 ---
 name: Addon-JS
-version: dev
+version: 1.0.0
 slug: example
 description: Plugin encargado de ejecutar scripts en node.js
 url: https://github.com/ElFumao420/addon-js
