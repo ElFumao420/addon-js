@@ -10,6 +10,7 @@ RUN chmod a+x /run.sh
 
 # Copia todos los archivos de tu carpeta scripts al contenedor
 COPY scripts/ /data/scripts/
+RUN ls -R /data/scripts
 
 # Establece /data como directorio de trabajo
 WORKDIR /data/scripts
