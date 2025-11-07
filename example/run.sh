@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cd /data
-node miscript.js
+cd /Telegram_Bot
+node index.js
